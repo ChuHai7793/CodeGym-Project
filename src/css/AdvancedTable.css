@@ -1,0 +1,30 @@
+body{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+}
+
+table,td{
+    border: 1px solid dimgray;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+
+}
+
+td{
+    height:40px;
+    width: 15%;
+}
+td:first-child{
+    /*background-color: red;*/
+    text-align: left;
+    /*width: 300px;*/
+    width: 40%;
+}
+
+h3,p{
+    margin: 5px;
+
+}
+label{
+    font-weight: bold;
+}
