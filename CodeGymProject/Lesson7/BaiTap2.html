@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            float:left;
+            text-align:center;
+            margin-right:100px;
+        }
+        label{
+            font-size:15px;
+            font-weight:bold;
+        }
+        select{
+            width:175.2px;
+        }
+        #result{
+            display:block;
+        }
+        section{
+            height:40px;
+        }
+
+    </style>
+</head>
+<body>
+
+<section>
+    <div >
+        <label for="amount"> Amount</label><br>
+        <input type="text" name="amount" id="amount">
+    </div>
+
+    <div>
+        <label for="fromCurrency"> From Currency</label><br>
+        <select name="fromCurrency" id="fromCurrency">
+            <option value="USD">USD</option>
+            <option value="VietNam" selected>VietNam</option>
+        </select>
+    </div>
+
+    <div >
+        <label for="toCurrency"> To Currency</label><br>
+        <select name="toCurrency" id="toCurrency">
+            <option value="USD" selected>USD</option>
+            <option value="VietNam" >VietNam</option>
+        </select>
+    </div>
+
+    <div >
+        <br>
+        <input type="submit" id= 'submit' value="Convert">
+    </div>
+</section>
+<!--<br>-->
+<!--<br>-->
+<!--<br>-->
+<p id="result"></p>
+
+<script src ='BaiTap2.js'></script>
+
+</body>
+</html>

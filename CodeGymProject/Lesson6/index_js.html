@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!-- ONCHANGE EVENT-->
+<p>Select From List </p>
+<select name="car" id="car_select" onchange="console.log(this.value)">
+    <option value="volvo">Volvo</option>
+    <option value="merc">Mercedes</option>
+    <option value="BMW">BMW</option>
+</select>
+
+<!--ONMOUSEOVER AND ONMOUSEOUT EVENT-->
+<p id="test1" onmouseover="this.style.color='red'"
+              onmouseout="this.style.color='black'">
+    THIS IS ONMOUSEOVER AND ONMOUSEOUT EVENT</p>
+
+
+<!--ONCLICK EVENT-->
+<p id="test2" onclick="this.style.color='red'"
+   onmouseout="this.style.color='black'">
+    THIS IS ONCLICK EVENT</p>
+<script src=" learn_js.js"></script>
+</body>
+</html>
